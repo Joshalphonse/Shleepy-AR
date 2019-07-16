@@ -22,6 +22,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBOutlet weak var boseConnectToDevice: MKMapView!
+    
+    
     private func configureLocationServices(){
         locationManager.delegate = self
         
